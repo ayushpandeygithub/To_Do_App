@@ -1,0 +1,15 @@
+C:\Users\ayush.p\Desktop\To Do App\full-web-app-ayush-pandey98\Back-End\ToDoAPI\ToDoApp\ToDoApp.Models\bin\Debug\net8.0\ToDoApp.Models.deps.json
+C:\Users\ayush.p\Desktop\To Do App\full-web-app-ayush-pandey98\Back-End\ToDoAPI\ToDoApp\ToDoApp.Models\bin\Debug\net8.0\ToDoApp.Models.dll
+C:\Users\ayush.p\Desktop\To Do App\full-web-app-ayush-pandey98\Back-End\ToDoAPI\ToDoApp\ToDoApp.Models\bin\Debug\net8.0\ToDoApp.Models.pdb
+C:\Users\ayush.p\Desktop\To Do App\full-web-app-ayush-pandey98\Back-End\ToDoAPI\ToDoApp\ToDoApp.Models\obj\Debug\net8.0\ToDoApp.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ayush.p\Desktop\To Do App\full-web-app-ayush-pandey98\Back-End\ToDoAPI\ToDoApp\ToDoApp.Models\obj\Debug\net8.0\ToDoApp.Models.AssemblyInfoInputs.cache
+C:\Users\ayush.p\Desktop\To Do App\full-web-app-ayush-pandey98\Back-End\ToDoAPI\ToDoApp\ToDoApp.Models\obj\Debug\net8.0\ToDoApp.Models.AssemblyInfo.cs
+C:\Users\ayush.p\Desktop\To Do App\full-web-app-ayush-pandey98\Back-End\ToDoAPI\ToDoApp\ToDoApp.Models\obj\Debug\net8.0\ToDoApp.Models.csproj.CoreCompileInputs.cache
+C:\Users\ayush.p\Desktop\To Do App\full-web-app-ayush-pandey98\Back-End\ToDoAPI\ToDoApp\ToDoApp.Models\obj\Debug\net8.0\ToDoApp.Models.sourcelink.json
+C:\Users\ayush.p\Desktop\To Do App\full-web-app-ayush-pandey98\Back-End\ToDoAPI\ToDoApp\ToDoApp.Models\obj\Debug\net8.0\ToDoApp.Models.dll
+C:\Users\ayush.p\Desktop\To Do App\full-web-app-ayush-pandey98\Back-End\ToDoAPI\ToDoApp\ToDoApp.Models\obj\Debug\net8.0\refint\ToDoApp.Models.dll
+C:\Users\ayush.p\Desktop\To Do App\full-web-app-ayush-pandey98\Back-End\ToDoAPI\ToDoApp\ToDoApp.Models\obj\Debug\net8.0\ToDoApp.Models.pdb
+C:\Users\ayush.p\Desktop\To Do App\full-web-app-ayush-pandey98\Back-End\ToDoAPI\ToDoApp\ToDoApp.Models\obj\Debug\net8.0\ref\ToDoApp.Models.dll
+C:\Users\ayush.p\Desktop\To Do App\full-web-app-ayush-pandey98\Back-End\ToDoAPI\ToDoApp\ToDoApp.Models\bin\Debug\net8.0\ToDoApp.Models.runtimeconfig.json
+C:\Users\ayush.p\Desktop\To Do App\full-web-app-ayush-pandey98\Back-End\ToDoAPI\ToDoApp\ToDoApp.Models\obj\Debug\net8.0\ToDoApp.Models.csproj.AssemblyReference.cache
+C:\Users\ayush.p\Desktop\To Do App\full-web-app-ayush-pandey98\Back-End\ToDoAPI\ToDoApp\ToDoApp.Models\obj\Debug\net8.0\ToDoApp.Models.genruntimeconfig.cache

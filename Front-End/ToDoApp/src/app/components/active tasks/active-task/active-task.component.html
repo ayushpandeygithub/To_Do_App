@@ -1,0 +1,40 @@
+<main>
+  <div class="task-container">
+    <header>
+      <h1 class="active">Today's Active Tasks</h1>
+      <h1 class="inactive">Today's Task</h1>
+      <span class="date">{{ formattedDate }}</span>
+    </header>
+    <ul class="task-list">
+      <li *ngFor="let task of tasks" class="task-item">
+        <input 
+          type="checkbox" 
+          [id]="'task' + task.taskId" 
+          class="custom-checkbox" 
+          [checked]="task.IsCompleted" 
+          (change)="toggleTaskCompletion(task)" 
+        />
+        <label [for]="'task' + task.taskId">
+          <span class="checkbox-svg"></span>
+          {{ task.taskName }}
+        </label>
+        <div class="task-detail">
+          <h2>{{ task.taskName }}</h2>
+          <p>{{ timeDuration (task.createdDate!)}}</p>
+          <h3>Description</h3>
+          <p>{{ task.taskDescription }}</p>
+          <div class="task-actions">
+            <span class="icon checkbox-icon" (click)="toggleTaskCompletion(task)"></span>
+            <div class="task-action-right">
+              <span class="icon edit-icon" (click)="editTask(task)" (click)="openModal()"></span>
+              <span class="icon delete-icon" (click)="openDeleteModal(task.taskId!)"></span>
+            </div>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+</main>
+<app-add-task-modal [isOpen]="isModalOpen" (close)="closeModal()" [defaultData]="taskToedit"
+[isUpdate]="true"></app-add-task-modal>
+<app-delete-confirmation-modal [isOpen]="isDeleteModalOpen" (shouldDelete)="handleDeleteConfirmation($event)"></app-delete-confirmation-modal>

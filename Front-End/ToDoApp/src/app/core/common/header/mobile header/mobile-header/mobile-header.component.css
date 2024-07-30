@@ -1,0 +1,114 @@
+:host{
+  display: none;
+}
+@media only screen and (max-width: 426px) {
+:host{
+  display: block;
+}
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0px;
+    width: 96%;
+  }
+
+  .app-title {
+    font-size: 18px;
+    color: #ba5112;
+    margin: 0;
+  }
+
+  .header-buttons {
+    display: flex;
+    align-items: center;
+  }
+
+  .add-task-btn,
+  .sign-out-btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: none;
+    padding: 9px 8px;
+    margin-left: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 12px;
+    width: 45%;
+  }
+  .add-task-btn {
+    background-color: #ffffff;
+    color: #251814;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  .dropdown-btn img {
+    margin-right: 10px;
+    width: 4%;
+  }
+  img {
+    width: 15%;
+  }
+  .sign-out-btn {
+    background-color: #ba5112;
+    color: #ffffff;
+  }
+
+  .dropdown {
+    background-color: #edb046;
+    position: relative;
+    display: inline-block;
+    width: 88%;
+    margin-top: 10px;
+    border-radius: 5px;
+  }
+
+  .dropdown-btn {
+    display: flex;
+    justify-content: space-between;
+    color: FFFFFF;
+    width: auto;
+    cursor: pointer;
+    border-radius: 5px 5px 0 0;
+    text-decoration: none;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    width: 100%;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    border-radius: 0px 0px 5px 5px;
+    background-color: #ffffff;
+  }
+
+  .dropdown-btn a,
+  .dropdown-content a {
+    font-size: 12px;
+    color: black;
+    padding: 4px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+
+  .dropdown-content a:hover {
+    background-color: #ffffff;
+    border-radius: 0px 0px 10px 0px;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  .dropdown:hover .dropdown-btn {
+    background-color: #edb046;
+  }
+}

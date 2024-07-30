@@ -1,0 +1,15 @@
+C:\Users\ayush.p\Desktop\To Do App\full-web-app-ayush-pandey98\Back-End\ToDoAPI\ToDoApp\ToDoApp.DAL\bin\Debug\net8.0\ToDoApp.DAL.deps.json
+C:\Users\ayush.p\Desktop\To Do App\full-web-app-ayush-pandey98\Back-End\ToDoAPI\ToDoApp\ToDoApp.DAL\bin\Debug\net8.0\ToDoApp.DAL.dll
+C:\Users\ayush.p\Desktop\To Do App\full-web-app-ayush-pandey98\Back-End\ToDoAPI\ToDoApp\ToDoApp.DAL\bin\Debug\net8.0\ToDoApp.DAL.pdb
+C:\Users\ayush.p\Desktop\To Do App\full-web-app-ayush-pandey98\Back-End\ToDoAPI\ToDoApp\ToDoApp.DAL\obj\Debug\net8.0\ToDoApp.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ayush.p\Desktop\To Do App\full-web-app-ayush-pandey98\Back-End\ToDoAPI\ToDoApp\ToDoApp.DAL\obj\Debug\net8.0\ToDoApp.DAL.AssemblyInfoInputs.cache
+C:\Users\ayush.p\Desktop\To Do App\full-web-app-ayush-pandey98\Back-End\ToDoAPI\ToDoApp\ToDoApp.DAL\obj\Debug\net8.0\ToDoApp.DAL.AssemblyInfo.cs
+C:\Users\ayush.p\Desktop\To Do App\full-web-app-ayush-pandey98\Back-End\ToDoAPI\ToDoApp\ToDoApp.DAL\obj\Debug\net8.0\ToDoApp.DAL.csproj.CoreCompileInputs.cache
+C:\Users\ayush.p\Desktop\To Do App\full-web-app-ayush-pandey98\Back-End\ToDoAPI\ToDoApp\ToDoApp.DAL\obj\Debug\net8.0\ToDoApp.DAL.sourcelink.json
+C:\Users\ayush.p\Desktop\To Do App\full-web-app-ayush-pandey98\Back-End\ToDoAPI\ToDoApp\ToDoApp.DAL\obj\Debug\net8.0\ToDoApp.DAL.dll
+C:\Users\ayush.p\Desktop\To Do App\full-web-app-ayush-pandey98\Back-End\ToDoAPI\ToDoApp\ToDoApp.DAL\obj\Debug\net8.0\refint\ToDoApp.DAL.dll
+C:\Users\ayush.p\Desktop\To Do App\full-web-app-ayush-pandey98\Back-End\ToDoAPI\ToDoApp\ToDoApp.DAL\obj\Debug\net8.0\ToDoApp.DAL.pdb
+C:\Users\ayush.p\Desktop\To Do App\full-web-app-ayush-pandey98\Back-End\ToDoAPI\ToDoApp\ToDoApp.DAL\obj\Debug\net8.0\ref\ToDoApp.DAL.dll
+C:\Users\ayush.p\Desktop\To Do App\full-web-app-ayush-pandey98\Back-End\ToDoAPI\ToDoApp\ToDoApp.DAL\bin\Debug\net8.0\ToDoApp.DAL.runtimeconfig.json
+C:\Users\ayush.p\Desktop\To Do App\full-web-app-ayush-pandey98\Back-End\ToDoAPI\ToDoApp\ToDoApp.DAL\obj\Debug\net8.0\ToDoApp.DAL.csproj.AssemblyReference.cache
+C:\Users\ayush.p\Desktop\To Do App\full-web-app-ayush-pandey98\Back-End\ToDoAPI\ToDoApp\ToDoApp.DAL\obj\Debug\net8.0\ToDoApp.DAL.genruntimeconfig.cache

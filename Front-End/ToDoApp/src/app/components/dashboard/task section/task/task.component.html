@@ -1,0 +1,46 @@
+<div class="task-header">
+  <h1>Today's Tasks</h1>
+  <div class="current-date">
+    <a class="delete-all" (click)="openDeleteModal()">Delete All</a>
+    <span class="date">{{ formattedDate }}</span>
+  </div>
+</div>
+<div class="task-statistics">
+  <ul class="tasks">
+    <li
+      *ngFor="let task of tasks"
+      class="task"
+      [ngClass]="{ active: !task.IsCompleted, completed: task.IsCompleted }"
+    >
+      <input
+        type="checkbox"
+        [id]="'task' + task.taskId"
+        class="custom-checkbox"
+        [checked]="task.IsCompleted"
+        (change)="toggleTaskCompletion(task)"
+      />
+      <label [for]="'task' + task.taskId">
+        <span *ngIf="!task.IsCompleted" class="checkbox-svg"></span>
+        <span *ngIf="task.IsCompleted" class="completed-checkbox-svg"></span>
+        {{ task.taskName }}
+      </label>
+    </li>
+  </ul>
+</div>
+<div class="stats-container">
+  <div class="stat-card completed-tasks">
+    <div class="icon completed-icon"></div>
+    <div class = "complete-container">
+    <h2>{{ completedPercentage }}%</h2>
+    <p>Completed tasks</p>
+  </div>
+  </div>
+  <div class="stat-card active-tasks">
+    <div class="icon active-icon"></div>
+    <div class = "active-container">
+    <h2>{{ activePercentage }}%</h2>
+    <p>Active tasks</p>
+  </div>
+  </div>
+</div>
+<app-delete-confirmation-modal [isDeleteAll]="true" [isOpen]="isDeleteModalOpen" (shouldDelete)="handleDeleteConfirmation($event)"></app-delete-confirmation-modal>

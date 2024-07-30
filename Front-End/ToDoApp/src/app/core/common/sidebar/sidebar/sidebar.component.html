@@ -1,0 +1,13 @@
+  <div class="sidebar">
+    <h1 class="title">To-Do App</h1>
+   <button class="add-task-btn" (click)="openModal()">
+      <span>Add Task</span>
+      <img src="assets/sidebar/add-icon.svg" alt="add task">
+    </button>
+    <div class="option">
+      <a routerLink="dashboard" ><p routerLinkActive="active" class="nav-item">Dashboard</p></a>
+      <a routerLink="active-task" ><p routerLinkActive="active"class="nav-item">Active</p></a>
+      <a routerLink="completed-task" ><p routerLinkActive="active"class="nav-item">Completed</p></a>
+    </div>
+</div>
+<app-add-task-modal [isOpen]="isModalOpen" (close)="closeModal()"></app-add-task-modal>

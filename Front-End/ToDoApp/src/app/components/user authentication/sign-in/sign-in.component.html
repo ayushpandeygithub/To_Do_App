@@ -1,0 +1,33 @@
+<main>
+    <div class="sign-in-container">
+      <h1>To-Do App</h1>
+      <p>Start organizing your life day by day</p>
+      <div class="input-group">
+        <input
+          class="user-name"
+          id="email"
+          name="email"
+          placeholder="Enter your username"
+          [(ngModel)]="username"
+        />
+      </div>
+      <div class="input-group">
+        <input
+          [type]="passwordFieldType"
+          id="password"
+          name="password"
+          placeholder="Enter your password"
+          [(ngModel)]="password"
+        />
+        <img
+          class="show-hide"
+          [src]="passwordImageSrc"
+          alt=""
+          (click)="togglePasswordVisibility()"
+        />
+      </div>
+      <button class="sign-in-button" routerLink="startup/dashboard" (click)="login()">Sign In</button>
+      <p class="sign-up-link">Don't have an account? Create <a routerLink="signup">here</a></p>
+    </div>
+  </main>
+  

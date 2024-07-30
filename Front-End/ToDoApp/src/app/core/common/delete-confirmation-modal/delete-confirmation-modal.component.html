@@ -1,0 +1,21 @@
+<div  class="delete-confirmation-container" *ngIf="isOpen"> 
+    <div class="delete-confirmation-content"> 
+        <h2>Delete Confirmation</h2> 
+        <p class="confirmation-message" *ngIf="!isDeleteAll"> 
+            Are you sure you want to delete this item? 
+        </p>
+        <p class="confirmation-message" *ngIf="isDeleteAll"> 
+            Are you sure you want to delete all items? 
+        </p> 
+        <div class="button-container" (click)="closeConfirmation()"> 
+            <button 
+                class="button cancel-button" > 
+                Cancel 
+            </button> 
+            <button
+                class="button delete-button" (click)="deleteAction()"> 
+                Delete 
+            </button> 
+        </div> 
+    </div> 
+</div> 

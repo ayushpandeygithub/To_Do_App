@@ -1,0 +1,8 @@
+main{
+    padding: 10px;
+}
+@media only screen and (max-width: 426px){
+    :host{
+        grid-template-columns: 0% 100%;
+    }
+}

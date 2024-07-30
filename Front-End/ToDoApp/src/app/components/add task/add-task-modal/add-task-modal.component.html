@@ -1,0 +1,19 @@
+<div class="modal" *ngIf="isOpen">
+  <div class="modal-content">
+    <input
+      type="text"
+      placeholder="Add title"
+      [(ngModel)]="title"
+      name="title"
+    />
+    <textarea
+      placeholder="Add description"
+      [(ngModel)]="description"
+      name="description"
+    ></textarea>
+    <div class="modal-buttons">
+      <button class="cancel-button" (click)="closeModal()">Cancel</button>
+      <button class="save-button" (click)="handelSubmission()">Save</button>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,127 @@
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    background-color: #f0f0f0;
+    background-image: url('/assets/user authentication/sign-in-background.svg');
+  }
+  
+  p {
+    font-size: 0.6875rem; 
+    padding: 0.4375rem; 
+  }
+  
+  .sign-in-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 3.125rem; 
+    border-radius: 0.625rem; 
+    box-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.1); 
+    width: 40%;
+    text-align: center;
+  }
+  
+  .sign-in-container h1 {
+    font-size: 2.375rem; 
+    color: #ba5112;
+  }
+  
+  .input-group {
+    margin: 0.9375rem 0; 
+    text-align: left;
+    width: 90%;
+  }
+  
+  .input-group label {
+    display: block;
+    margin-bottom: 0.3125rem; 
+    font-weight: bold;
+  }
+  
+  .input-group input {
+    font-size: 0.75rem; 
+    width: 100%;
+    padding: 0.5rem; 
+    box-sizing: border-box;
+    border: none;
+    border-radius: 0.3125rem; 
+    box-shadow: 0.125rem 0.125rem 0.5rem 0px #0000001a; 
+    height: 2.5rem; 
+  }
+  
+  .input-group input::placeholder {
+    color: #b5b5b5;
+  }
+  
+  .user-name {
+    margin-top: 3.125rem; 
+  }
+  
+  .sign-in-button {
+    background-color: #edb046;
+    color: black;
+    padding: 0.8125rem 0.9375rem; 
+    border: none;
+    border-radius: 0.3125rem; 
+    cursor: pointer;
+    width: 26%;
+    margin-top: 1.25rem; 
+  }
+  
+  .sign-up-link {
+    margin-top: 0.9375rem; 
+    display: block;
+    text-decoration: none;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #ba5112;
+    cursor: pointer;
+  }
+  
+  .input-group {
+    position: relative;
+    width: 100%;
+  }
+  
+  .show-hide {
+    position: absolute;
+    bottom: 10%;
+    right: 5%;
+    cursor: pointer;
+  }
+  #password::-ms-reveal {
+    display: none;
+}
+  @media only screen and (max-width: 426px){
+    .input-group[_ngcontent-ng-c387274133] {
+      width: 80%;
+      margin: 0.5375rem 0;
+  }
+  
+  .user-name[_ngcontent-ng-c387274133] {
+      margin-top: 2.125rem;
+  }
+  
+  
+  .sign-in-container{
+    width: 85%;
+    padding: 0.8rem;
+  }
+  
+  .show-hide[_ngcontent-ng-c387274133] {
+      bottom: 12%;
+      width: 10%;
+  }
+  .sign-in-button {
+    width: 45%;
+  }
+  main{
+    align-items: start;
+    padding: 5%;
+  }
+}

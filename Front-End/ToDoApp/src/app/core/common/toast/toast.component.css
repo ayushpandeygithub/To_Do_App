@@ -1,0 +1,52 @@
+#toastBox {
+    position: absolute;
+    top: 50px;
+    right: 20px;
+    overflow: hidden;
+    z-index: 4;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.9);
+    border-radius: 10px;
+  }
+  .toast {
+    width: 300px;
+    height: 80px;
+    font-size: small;
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+   .success{
+    background: #caf4c6;
+   }
+   .fail{
+    background:rgb(245, 141, 141);
+   }
+  .toast img {
+    margin: 0 20px;
+    height: 30px;
+  }
+  .fail img{
+    margin-top: 10px;
+    rotate: 180deg;
+  }
+  .toast::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 5px;
+    animation: anim 3s linear forwards;
+  }
+  .success::after{
+    background: green;
+  }
+   .fail::after{
+    background: rgb(227, 115, 115);
+  }
+
+  @keyframes anim {
+    100% {
+      width: 0;
+    }
+  }

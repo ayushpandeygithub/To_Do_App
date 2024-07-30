@@ -1,0 +1,15 @@
+@font-face {
+    font-family: lexend;
+    src: url(assets/fonts/Lexend-VariableFont_wght.ttf);
+}
+*{
+ box-sizing: border-box;
+ margin: 0;
+ padding: 0;
+ font-family: lexend;
+}
+app-app-startup{
+    display: grid;
+    grid-template-columns: 20% 80%; 
+    background: #FFFFFF;
+}

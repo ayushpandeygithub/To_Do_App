@@ -1,0 +1,35 @@
+<main>
+    <div class="sign-up-container">
+      <h1>To-Do App</h1>
+      <p>Start organizing your life day by day</p>
+      <div class="input-group">
+        <input
+          [ngClass]="wrongPattern ? 'show-error' : ''"
+          class="user-name"
+          id="email"
+          name="email"
+          [(ngModel)]="userName"
+          placeholder="Enter your username ( Eg.name_123 )"
+        />
+        <span *ngIf="wrongPattern">It does'nt follows the pattern name_123</span>
+      </div>
+      <div class="input-group">
+        <input
+          [type]="passwordFieldType"
+          id="password"
+          name="password"
+          [(ngModel)]="password"
+          placeholder="Enter your password"
+        />
+        <img
+          class="show-hide"
+          [src]="passwordImageSrc"
+          alt=""
+          (click)="togglePasswordVisibility()"
+        />
+      </div>
+      <button class="sign-up-button" (click)="signUp()">Sign Up</button>
+      <p class="sign-in-link">Already have an account? Sign in <a routerLink="">here</a></p>
+    </div>
+  </main>
+  

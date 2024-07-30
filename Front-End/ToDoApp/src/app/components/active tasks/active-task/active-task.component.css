@@ -1,0 +1,186 @@
+.main {
+  padding: 40px;
+}
+
+.task-container {
+  width: 100%;
+  padding: 20px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 20px;
+  margin: 0;
+}
+
+.date {
+  font-size: 14px;
+  color: #888;
+}
+
+.task-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.task-item {
+  position: relative;
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  height: 3.6rem;
+}
+
+.task-item:last-child {
+  margin-bottom: 0;
+}
+
+.custom-checkbox {
+  display: none;
+}
+
+label {
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.checkbox-svg {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+  background: url("/assets/tasklist/active-checkbox.svg") no-repeat center
+    center;
+  background-size: 1.5rem;
+}
+
+.custom-checkbox:checked + label .checkbox-svg {
+  width: 24px;
+  height: 24px;
+  background: url("/assets/tasklist/completed-checkbox.svg") no-repeat center
+    center;
+  background-size: contain;
+}
+
+.task-detail {
+  display: none;
+  position: absolute;
+  top: 46px;
+  left: 70%;
+  width: 300px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  z-index: 10;
+  transform: translateX(10px);
+  transition: transform 0.3s;
+}
+
+.task-item:hover .task-detail {
+  display: block;
+  transform: translateX(0);
+}
+
+.task-detail h2 {
+  font-size: 18px;
+  margin: 0 0 10px;
+}
+
+.task-detail p {
+  font-size: 14px;
+  margin: 5px 0;
+}
+
+.task-detail h3 {
+  font-size: 16px;
+  margin: 15px 0 5px;
+}
+
+.task-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.task-action-right {
+  display: flex;
+  gap: 10px;
+}
+.inactive{
+  display: none;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+  background-size: contain;
+  cursor: pointer;
+}
+
+.checkbox-icon {
+  background: url("/assets/tasklist/active-checkbox.svg") no-repeat center
+    center;
+  background-size: 20px;
+}
+
+.edit-icon {
+  background: url("/assets/active-task/edit.svg") no-repeat center center;
+  background-size: 20px;
+}
+
+.delete-icon {
+  background: url("/assets/active-task/delete.svg") no-repeat center center;
+  background-size: 20px;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .active {
+    display: none;
+  }
+  .inactive {
+    display: block;
+    font-size: 1rem;
+  }
+  .date {
+    font-size: 0.6rem;
+  }
+  label {
+    font-size: 0.8rem;
+  }
+  .checkbox-svg {
+    background-size: 55%;
+  }
+
+  .task-detail {
+    width: 55%;
+    left: 45%;
+    padding: 5%;
+  }
+  .task-detail p {
+    font-size: 0.6rem;
+  }
+
+  .task-detail h3 {
+    font-size: 0.8rem;
+  }
+  .delete-icon,
+  .checkbox-icon,.edit-icon {
+    background-size: 60%;
+  }
+}
